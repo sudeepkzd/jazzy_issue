@@ -11,9 +11,19 @@
 
 #import "MockEvent.h"
 
+/**
+ * Mock Sample SDK
+ */
 @interface MockSampleSDK : NSObject
 
+/**
+ * GEts a sample types
+ */
 - (SampleTypes *)getMockSampleTypes;
+
+/**
+ * returns a mock event
+ */
 - (MockEvent *)getMockEvent;
 
 @end
