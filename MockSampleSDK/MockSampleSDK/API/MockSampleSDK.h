@@ -26,4 +26,9 @@
  */
 - (MockEvent *)getMockEvent;
 
+/**
+ * Does things with greeting
+ */
+- (void)acknowledgeEnum:(GreetingEnum)greetingEnum;
+
 @end

@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ * Enum for greeting people
+ */
+typedef NS_ENUM(int, GreetingEnum) {
+    Hello = 0,
+    Bye = 1
+};
+
 @interface SampleTypes : NSObject
 
 - (NSArray *)getSampleTypes;

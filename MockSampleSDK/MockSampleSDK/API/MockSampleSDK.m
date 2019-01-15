@@ -18,4 +18,8 @@
     return [[MockEvent alloc] init];
 }
 
+- (void)acknowledgeEnum:(GreetingEnum)greetingEnum {
+    //nothing
+}
+
 @end
